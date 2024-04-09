@@ -1,0 +1,111 @@
+
+.submain1{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    width: 0;
+    margin-bottom: 15vh;
+    margin-left: 9vw;
+    margin-top: 10vh;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.submain2{
+    position: relative;
+    top: 80vh;
+    display: flex;
+    justify-content: space-between;
+    width: 0;
+}
+
+.pythonclass{
+    
+    width: 300px;
+    height: 500px;
+}
+
+.mysqlclass{
+    width: 300px;
+    height: 500px;
+    margin-left: 5vw;
+}
+.djangoclass{
+    
+    width: 300px;
+    height: 500px;
+    margin-left: 5vw;
+}
+.restapiclass{
+
+    height: 500px;
+    width: 300px;
+    margin-left: 5vw;
+}
+.reactclass{
+    
+    width: 300px;
+    height: 500px;
+}
+.javascriptclass{
+    
+    width: 300px;
+    height: 500px;
+    margin-left: 5vw;
+
+}
+.htmlclass{
+    
+    width: 300px;
+    height: 500px;
+    margin-left: 5vw;
+}
+.cssclass{
+
+    width: 300px;
+    height: 500px;
+    margin-left: 5vw;
+}
+.main p{
+    margin-left: 1vw;
+    color: whitesmoke;
+}
+.main p:hover{
+    cursor: context-menu;
+}
+
+@keyframes rotateY360 {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+
+#pythonimg:hover,
+#mysqlimg:hover,
+#djangoimg:hover,
+#restapiimg:hover,
+#reactimg:hover,
+#jsimg:hover,
+#htmlimg:hover,
+#cssimg:hover {
+    animation: rotateY360 2s linear infinite; /* Rotate continuously for 2 seconds */
+    cursor: pointer;
+}
+.main{
+    animation: slide-in 1s forwards;
+
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%); 
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+  

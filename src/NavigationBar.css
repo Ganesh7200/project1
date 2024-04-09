@@ -1,0 +1,136 @@
+.navbar{
+    height: 90px;
+    background-color: #1a1a1a;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .logo h2{
+    
+      font-family: 'Font Awesome 5 Brands';
+      font-weight: 900; 
+      font-size: 24px; 
+      color: rgba(163, 104, 252, 0.8); 
+    }
+
+ 
+
+    @keyframes drop {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+      }
+      
+      .navbar{
+        animation: drop 1s ease forwards;
+      }
+      *,
+      *::before,
+      *::after{
+        box-sizing: border-box;
+      }
+      body{
+        margin: 0;
+        padding: 0;
+        background-color: #010101;
+        font-family: "Ubuntu", sans-serif;
+      }
+      a {
+        text-decoration:  none;
+      }
+      button{
+        border: 0;
+        outline: none;
+        font-family: inherit;
+        font-size: inherit;
+        cursor: pointer;
+      }
+      .menu{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+      }
+      .menu-links{
+        display: flex;
+        gap: 80px;
+        border-right: 1px solid #999999;
+        padding-inline: 24px;
+      }
+      .menu-links p{
+        font-weight: 500;
+        color: #999999;
+        padding: 8px 16px;
+      }
+      .menu-links p:hover{
+        cursor: pointer;
+        color: white;
+        border-bottom: 2px solid #007bff;
+      }
+      .menu-button{
+        font-size: 32px;
+        color: white;
+        display: none;
+        cursor: pointer;
+      }
+
+      #homeicon{
+        color: white;
+        position: relative;
+        top: 3vh;
+      }
+      #abouticon{
+        color: white;
+      }
+      #contacticon{
+        color: white;
+      }
+      #skillicon{
+        color:white;
+      }
+      .menu-links i{
+        position: relative;
+        top: 3.3vh;
+        left: 5.5vw;
+      }
+      .menu-links i:hover{
+          cursor: pointer;  
+      }
+      #homeicon {
+        transition: color 0.3s, transform 0.3s; 
+      }
+      
+      #homeicon:hover {
+        color: lightgreen; 
+        transform: scale(1.1); 
+      }
+      #abouticon {
+        transition: color 0.3s, transform 0.3s; 
+      }
+      
+      #abouticon:hover {
+        color: lightgreen;
+        transform: scale(1.1); 
+      }
+      #contacticon {
+        transition: color 0.3s, transform 0.3s; 
+      }
+      
+      #contacticon:hover {
+        color: lightgreen; 
+        transform: scale(1.1); 
+      }
+      #skillicon {
+        transition: color 0.3s, transform 0.3s; 
+      }
+      
+      #skillicon:hover {
+        color: lightgreen; 
+        transform: scale(1.1); 
+      }      
+    

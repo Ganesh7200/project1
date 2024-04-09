@@ -1,0 +1,244 @@
+
+.left{
+    /*border: 2px solid white;*/
+    float: left;
+    width: 40%;
+    height: 100vh;
+  }
+  
+  .right{
+    /*border: 2px solid white;*/
+    float: right;
+    width: 40%;
+    height: 80vh;
+  }
+  .img{
+    position: relative;
+    top: 15%;
+    left: 34%;
+    height: 70vh;
+    /*border: 2px solid white;*/
+  }
+  .img #image1{
+    width: 350px;
+    height: 350px;
+    
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: width 1s ease-out,height 1s ease-out;
+}
+.img #image1:hover{
+    width: 360px;
+    height: 360px;
+    transition: 1s ease-out;
+}
+.img img {
+    animation: slide-in 1s forwards;
+}
+  
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%); 
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+  
+  
+#homeicon{
+    color: white;
+    position: relative;
+    top: 3vh;
+}
+  #abouticon{
+    color: white;
+  }
+  #contacticon{
+    color: white;
+  }
+  #blogicon{
+    color:white;
+  }
+  .menu-links i{
+    position: relative;
+    top: 3.3vh;
+    left: 5.5vw;
+  }
+  .menu-links i:hover{
+      cursor: pointer;  
+  }
+  #homeicon {
+    transition: color 0.3s, transform 0.3s; 
+  }
+  
+  #homeicon:hover {
+    color: lightgreen; 
+    transform: scale(1.1); 
+  }
+  #abouticon {
+    transition: color 0.3s, transform 0.3s; 
+  }
+  
+  #abouticon:hover {
+    color: lightgreen;
+    transform: scale(1.1); 
+  }
+  #contacticon {
+    transition: color 0.3s, transform 0.3s; 
+  }
+  
+  #contacticon:hover {
+    color: lightgreen; 
+    transform: scale(1.1); 
+  }
+  #blogicon {
+    transition: color 0.3s, transform 0.3s; 
+  }
+  
+  #blogicon:hover {
+    color: lightgreen; 
+    transform: scale(1.1); 
+  }
+  
+  
+  #insta{
+    color: whitesmoke;
+  }
+  #insta:hover{
+    color: #E1306C;
+  }
+  
+  #linkedin{
+    color: whitesmoke;
+    margin-left: 1.5vw;
+  }
+  #linkedin:hover{
+    color: #0077B5;
+  }
+  #facebook{
+    color: whitesmoke;
+    margin-left: 1.5vw;
+  }
+  #facebook:hover{
+    color: #1877F2;
+  }
+  #git{
+    color: whitesmoke;
+    margin-left: 1.5vw;
+  }
+  #git:hover{
+    color: #6CC644;
+  }
+  .socialmedia{
+    position: relative;
+    left: 13vw;
+  
+  }
+  .socialmedia i {
+    font-size: 28px; 
+    transition: font-size 0.3s, color 0.3s, box-shadow 0.3s; 
+    margin: 0 10px; 
+  }
+  
+  .socialmedia i:hover {
+    color: red; 
+    font-size: 30px; 
+    box-shadow: 0 0 10px 5px rgba(235, 14, 14, 0.5);
+    cursor: pointer;
+  
+  }
+  
+  .socialmedia {
+    animation: slide-in 1s forwards;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%); 
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+.right{
+    position: relative;
+    top: 10vh;
+    right: 10vw;
+    cursor:context-menu;
+}
+#name {
+    font-size: 48px;
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 10px; 
+    font-family: "Pacifico", cursive;
+    transition: color 1s ease-out, font-size 1s ease-out, font-weight 1s ease-out;
+}
+#name:hover{
+    font-size: 50px;
+    color: red;
+    transition: 1s;
+}
+#skillname {
+    font-size: 26px;
+    font-weight: 700;
+    color: white; 
+    margin-bottom: 20px; 
+    transition: color 1s ease-out, font-size 1s ease-out, font-weight 1s ease-out;
+}
+#skillname:hover{
+    font-size: 28px;
+    color: red;
+    transition: 1s;
+}
+p {
+    font-size: 18px;
+    color: green; 
+    line-height: 1.1; 
+}
+
+
+@keyframes slideRightToLeft {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#name {
+    opacity: 0; 
+    animation: slideRightToLeft 1s ease-in-out forwards; 
+}
+
+#skillname {
+    opacity: 0; 
+    animation: slideRightToLeft 1s ease-in-out forwards; 
+}
+#matter {
+    opacity: 0; 
+    animation: slideRightToLeft 1s ease-in-out forwards; 
+}
+
+#resume{
+  position: relative;
+  top: -0.6vh;
+  left: 2vw;
+  width: 10vw;
+  height: 4vh;
+  border-radius: 5vw;
+  font-size: 14px;
+}
+#resume:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid whitesmoke;
+  font-weight: 700;
+}

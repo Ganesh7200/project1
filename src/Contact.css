@@ -1,0 +1,93 @@
+.div1{
+    width: 0;
+   
+}
+.div2{
+    width: 98vw;
+    height: 100vh;
+}
+.con1{
+    color: whitesmoke;
+    position: relative;
+    top: 10vh;
+    left: 10vw;   
+}
+#greeting1{
+    line-height: 1.5;
+}
+#email-text{
+    margin-left: 8.5vw;
+    margin-top: -2.8vh;
+
+}
+#email-text:hover{
+    font-size: 20px;
+    color: brown;
+    transition: 0.5s ease-in-out;
+}
+#gmail-icon{
+    width: 2vw;
+    height: 2.5vh;
+    margin-left: 5vw;
+}
+#gmail-icon:hover{
+    width: 3vw;
+    height: 3.5vh;
+    transition: 0.5s ease-in-out;
+}
+#phone-icon{
+    color: blue;
+    position: relative;
+    top: 10vh;
+    left: 15.2vw; 
+}
+#phone-icon:hover{
+    font-size: 22px;
+    transition: 0.5s ease-in-out;
+}
+#ph-no{
+    margin-top: -2vh;
+    margin-left: 8vw;
+}
+#ph-no:hover{
+    font-size: 20px;
+    color: blue;
+    transition: 0.5s ease-in-out;
+}
+
+#linkedin-link,#insta-link,#fb-link{
+    margin-left: 45px;
+    text-decoration: underline;
+}
+#linkedin-link:hover{
+    font-size: 18px;
+    color: #0077B5;
+    transition: 0.5s ease-in-out;
+}
+#insta-link:hover{
+    font-size: 18px;
+    color: #E4405F;
+    transition: 0.5s ease-in-out;
+}
+#fb-link:hover{
+    font-size: 18px;
+    color: #1877F2;
+    transition: 0.5s ease-in-out;
+}
+#last-words{
+    margin-top: 8vh;
+    color: aqua;
+}
+.div2{
+    animation: slide-in 1s forwards;
+
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%); 
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+  
